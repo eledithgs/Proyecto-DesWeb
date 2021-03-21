@@ -1,0 +1,27 @@
+#name{
+	color: #4C6270;
+	font-family: Brush Script MT;
+	font-size: 100px;
+  	text-align: center;
+}
+
+.sub{
+	color: #4C6270;
+	font-size: 10px;
+	text-align: center;
+	font-family: Arial;
+}
+
+
+
+article > h3{
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#kor{
+	text-align: left;
+}
+#ing{
+	text-align: right;
+}
