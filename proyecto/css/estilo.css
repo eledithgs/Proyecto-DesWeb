@@ -2,7 +2,15 @@
 	color: #4C6270;
 	font-family: Brush Script MT;
 	font-size: 100px;
+	height: 20px;
   	text-align: center;
+}
+
+#by{
+	color: white;
+	font-family: Brush Script MT;
+	text-align: center;
+	height: 0px;	
 }
 
 .sub{
@@ -13,15 +21,27 @@
 }
 
 
-
 article > h3{
 	font-family: Arial;
 	font-size: 20px;
+
 }
 
 #kor{
 	text-align: left;
+
 }
+#kor:hover{
+	background-color: white;
+	color: black;
+}
+
+
 #ing{
 	text-align: right;
+}
+
+#ing:hover{
+	background-color: white;
+	color: black;
 }
