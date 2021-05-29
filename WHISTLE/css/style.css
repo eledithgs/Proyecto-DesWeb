@@ -1,0 +1,398 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #D9D2CC;
+  font-family: 'Inconsolata', monospace
+
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #25385C;
+  border-radius: 1;
+  border: 0;
+  height: 130px;
+}
+
+/** LOGO **/
+#logo-img {
+  background: url('../images/logo1.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 10px;
+  /*float: left;*/
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+/** nombre **/
+.navbar-brand h1 { /*name */
+  font-family: 'Roboto', sans-serif;
+  color: #D9D2CC;  
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+  padding-top: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .70;
+
+}
+
+/** frase **/
+.navbar-brand p { 
+  color: #D9D2CC;
+  text-shadow: 1px 1px 1px #0D0B09;
+  font-size: .9em;
+  margin-top: 7px;
+  font-weight: bold;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+	color: black;
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D9D2CC;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+  margin-bottom: 80px;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px black;
+  /*border: 2px solid white;*/
+}
+
+#coreano-title, #ingles-title {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+ 
+}
+
+#coreano-title:hover, #ingles-title:hover {
+  box-shadow: 0 1px 5px 1px black;
+}
+
+#coreano-title {
+  background: url('../images/cor.jpg') no-repeat;
+  background-position: center;
+}
+
+#ingles-title {
+  background: url('../images/eu1.jpg') no-repeat;
+  background-position: center;
+}
+
+#coreano-title  span, #ingles-title span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* MENU CATEGORIES PAGE */
+#uno-title{
+  color: black;
+  margin-bottom: 20px;
+}
+.uno-subtilte{
+  color: black;
+}
+
+
+#Inicio{
+  color: black;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.text-paginas{
+color: black;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px yellow;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  color: black;
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.container .jumbotron {
+    background: url('../images/large.jpg') no-repeat;
+    height: 500px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo1.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/med.jpg') no-repeat;
+    height: 400px;
+    
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ /* Home Page */
+  .container .jumbotron {
+    background: url('../images/chica.jpg') no-repeat;
+    height: 300px;
+    
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* name */
+    padding-top: 10px;
+    font-size: 10vw; /* 1vw = 1% del ancho de la ventana */
+  }
+  .navbar-brand p { /* frase */
+    font-size: .7em;
+    margin-top: 12px;
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+  }
+  /* End Header */
+
+
+ /*Home Page */
+  .container .jumbotron {
+   margin-top: 30px;
+    padding: 0px;
+    height: 500px;
+    
+  }
+    #coreano-title, #ingles-title {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+ /* End Home Page */
+
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  .container .jumbotron {
+   margin-top: 30px;
+    padding: 0;
+    padding-bottom: 0px;
+    height: 500px;
+    
+  } 
+  #coreano-title, #ingles-title {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+ 
