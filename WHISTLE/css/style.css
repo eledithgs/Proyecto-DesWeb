@@ -161,10 +161,10 @@ tbody td {
   line-height: 1.8;
 }
 
-#testimonials {
+#frases {
   font-style: italic;
 }
-#testimonials p:nth-child(2) {
+#frases p:nth-child(2) {
   margin-top: 25px;
 }
 
