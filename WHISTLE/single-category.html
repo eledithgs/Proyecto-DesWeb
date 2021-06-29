@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WHISTLE</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">  
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 	
 	
 </head>
 <body>
-
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
@@ -41,14 +43,14 @@
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             
             <li>
-              <a href="#">
+              <a href="aboutus.html"><div id="about.title"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
   <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
 </svg><br class="hidden-xs"> About us</a>
             </li>
             <li>
-              <a href="#">
+              <a href="contacus.html"><div id="contact.title"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
   <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
@@ -63,67 +65,25 @@
   </header>
 
 <div id="main-content" class="container">
-     <h1 id="uno-title" class="text-paginas">PRESENTACIÓN ()</h1>
-    <div class="text-paginas">
-      El Hangul es lo primero que debes aprender, ya que es sistema de escritura coreano. TODAS LAS LETRAS SE ESCRIBEN DE ARRIBA HACIA ABAJO Y DE IZQUIERDA A DERECHA. El "ㅇ" de las letras [아], no tiene un valor fonetico.
-    </div>
-    <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('fam')"> Familia</button>
-  <button class="btn" onclick="filterSelection('animals')"> Animales</button>
-  <button class="btn" onclick="filterSelection('fruits')"> Frutas</button>
-  <button class="btn" onclick="filterSelection('colors')"> Colores</button>
-</div>
-<div class="container">
-  <div class="filterDiv fam">Mamá --- 어머니</div>
-  <div class="filterDiv fam">Papá --- 어버지</div>
-  <div class="filterDiv fam">Hermana M. (f) 안니</div>
-  <div class="filterDiv fam">Hermana M. (m) 누너</div>
-  <div class="filterDiv fam">Hermano M. (f) 오빠</div>
-  <div class="filterDiv fam">Hermano M. (m) 형</div>
-  <div class="filterDiv fam">Hermana m. 여동생</div>
-  <div class="filterDiv fam">Hermano m. 남동생</div>
-  <div class="filterDiv fam">Abuela -- 할머니</div>
-  <div class="filterDiv fam">Abuelo -- 할아바지</div>
-  <div class="filterDiv fam">Tia - -- 이모</div>
-  <div class="filterDiv fam">Tio - -- 삼촌</div>
-  <div class="filterDiv fam">Sobrina/o- 조카</div>
-  <div class="filterDiv fruits">Pepino - 오이</div>
-  <div class="filterDiv colors">Rojo - - 빨간색</div>  
-  <div class="filterDiv colors">Azul - - 파란색</div>
-  <div class="filterDiv colors">Negro - - 검은색</div>  
-  <div class="filterDiv colors">Gris - - 회색</div>
-  <div class="filterDiv colors">Blanco - 하얀색</div>
-  <div class="filterDiv colors">Verde - - 초록색</div>  
-  <div class="filterDiv colors">Morado - 자주색</div>
-  <div class="filterDiv colors">Cafe - - 갈색</div>  
-  <div class="filterDiv colors">Naranja - 주황색</div>
-  <div class="filterDiv animals">Gato - - 고양이</div>
-  <div class="filterDiv animals">Perro - - 개</div>
-  <div class="filterDiv animals">Pato - - 오리</div>
-  <div class="filterDiv animals">Caballo -  말</div>
-  <div class="filterDiv animals">Pajaro - - 새</div>
-  <div class="filterDiv animals">Vaca - - 소</div>
-  <div class="filterDiv animals">Pez - -- 물고기</div>
-  <div class="filterDiv animals">Cerdo - - 돼지</div>
-  <div class="filterDiv animals">Rana - -- 개구리</div>
-  <div class="filterDiv animals">Lobo - - 늑대</div>
-  <div class="filterDiv fruits">Uva  - -- 포도</div>
-  <div class="filterDiv fruits">Fresa -- 딸기</div>
-  <div class="filterDiv fruits">Banana - 바나나</div>
-  <div class="filterDiv fruits">Manzana - 사과</div>
-  <div class="filterDiv fruits">Mango - - 망고</div> 
-  <div class="filterDiv fruits">Limon - - 려몬</div>   
-  <div class="filterDiv fruits">Naranja - 오렌지</div>
-  <div class="filterDiv fruits">Coco - - 코코넛</div>
-  <div class="filterDiv fruits">Durazno - 복숭아</div> 
-  <div class="filterDiv fruits">Pera - -- 배</div>
-  <div class="filterDiv fruits">Kiwi - - 키위</div>
-  <div class="filterDiv fruits">Cereza -- 체리</div>
-</div>
+  <body style="background: -webkit-linear-gradient(left, #ff7697 0, #ff7986 3.33%, #ff7f75 6.67%, #ff8565 10%, #ff8c55 13.33%, #ff9447 16.67%, #ff9c39 20%, #fba32d 23.33%, #edaa22 26.67%, #deb119 30%, #ceb717 33.33%, #bdbc1c 36.67%, #abc126 40%, #97c532 43.33%, #82c941 46.67%, #6acc50 50%, #4bcf60 53.33%, #0cd171 56.67%, #00d383 60%, #00d495 63.33%, #00d5a8 66.67%, #00d6bb 70%, #00d6ce 73.33%, #00d6e0 76.67%, #00d5f1 80%, #00d4ff 83.33%, #00d3ff 86.67%, #00d1ff 90%, #00ceff 93.33%, #00cbff 96.67%, #00c7ff 100%); ">
 
 
+
+    <h1 style="font-size:150px;     font-family: 'Roboto', sans-serif;  text-align:center; text-shadow: -1px -1px 1px transparent, 1px 1px 1px transparent, -1px 1px 1px transparent, 1px -1px 1px transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.61); "> Coming soon
+        <h1>
+            <h1 style="font-size:150px;     font-family: 'Roboto', sans-serif;  text-align:center; text-shadow: -1px -1px 1px transparent, 1px 1px 1px transparent, -1px 1px 1px transparent, 1px -1px 1px transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.61); ">곧 올
+                <h1>
+                    <h1 style="font-size:150px;     font-family: 'Roboto', sans-serif;  text-align:center; text-shadow: -1px -1px 1px transparent, 1px 1px 1px transparent, -1px 1px 1px transparent, 1px -1px 1px transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.61); "> Proximamente
+                        <h1>
+</body>
     
+
 </div><!-- FIN DE #main-content -->
 
 <!-- PIE DE PAGINA -->
@@ -134,6 +94,8 @@
           <span>Proyecto por:</span><br>
           UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO <br>
           Eledith Gonzalez y Jose Uc <br>
+          Sebastian, Zitlalli y Axel <br>
+
           MAC
           <hr class="visible-xs">
         </section>
@@ -159,9 +121,7 @@
    <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
-  
 
   <!--<footer> by Ele & Jose</footer>-->
 </body>
-
 </html>

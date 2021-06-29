@@ -275,6 +275,7 @@ h3.menu-item-title {
   font-family: cursive;
 }
 
+
 /* PAGE intro */
 
 
@@ -405,7 +406,48 @@ transform:rotate(180deg);
   
 }
 /*  END PAGE coreano-intro */
+/*  VOCABULARIO */
+.container {
+  overflow: hidden;
+}
 
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  color: black;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+/*  END VOCABULARIO */
 /* END SINGLE CATEGORY PAGE */
 
 /********** Large devices only **********/
